@@ -41,7 +41,7 @@ export default class Interna extends Component{
     }
 
     addDespesa(){
-
+        this.props.navigation.navigate('AddDespesa');
     }
 
     render(){

@@ -8,6 +8,7 @@ import Cadastro from './src/screens/Cadastro';
 import Interna from './src/screens/Interna';
 import Preload from './src/screens/Preload';
 import AddReceita from './src/actions/AddReceita';
+import AddDespesa from './src/actions/AddDespesa';
 
 const Navigator = createStackNavigator({
   Preload:{
@@ -27,6 +28,9 @@ const Navigator = createStackNavigator({
   },
   AddReceita:{
     screen:AddReceita
+  },
+  AddDespesa:{
+    screen:AddDespesa
   }
 });
 
